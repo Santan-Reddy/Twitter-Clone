@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/output.css">
 </head>
 <body class=" bg-black text-white">
-    <div class="flex container mx-auto my-4">
+    <div class="flex container mx-auto ">
         <div class="first w-[70%] ">
             <div class="logo invert my-4 ">
                 <svg viewBox="0 0 24 24" aria-hidden="true" class="m-auto w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
@@ -29,12 +29,53 @@
                 </ul>
             </div>
         </div>
-        <div class="second w-full border-x border-white">
-            bb
+        <div class="second w-full border-x border-white ">
+            <div class="top flex items-center ">
+                <div class="left w-1/2 flex justify-center font-bold text-lg hover:bg-[#16181c] p-3">
+                    <div class="flex flex-col justify-between items-center">
+                        For You
+                        <div class="w-8 h-1 bg-[#1d9bf0] "></div>
+                    </div>
+                    
+                </div>
+                <div class="right w-1/2 flex justify-center font-bold text-lg hover:bg-[#16181c] p-3">Following</div>
+                <div class="settings mx-2 p-3">
+                    <span class="material-symbols-outlined">
+                        settings
+                    </span>
+                </div>
+            </div>
+            <hr>
         </div>
         <div class="third w-full">
             <div class="search m-3">
-                <input type="text" class="w-1/2 rounded-full bg-gray-900 text-white px-4 py-2" placeholder="Search">
+                <input type="text" class="w-1/2 rounded-full bg-[#16181c] text-white px-4 py-2" placeholder="Search">
+            </div>
+            <div class="whats m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
+                <h1 class="text-xl font-bold px-3">Whats Happening</h1>
+                <div class="item px-3 p-3 hover:bg-[#202327] hover:cursor-pointer">
+                    <div class="text-sm text-gray-200">Trending in India</div>
+                    <div class="font-bold">#IPL2024</div>
+                    <div class="text-sm text-gray-200">40.2k posts</div>
+                </div>
+                <div class="item px-3 p-3 hover:bg-[#202327]  hover:cursor-pointer">
+                    <div class="text-sm text-gray-200">Trending in India</div>
+                    <div class="font-bold">#Twitter</div>
+                    <div class="text-sm text-gray-200">40.2k posts</div>
+                </div>
+                <div class="item px-3 p-3 hover:bg-[#202327]  hover:cursor-pointer">
+                    <div class="text-sm text-gray-200">Trending in India</div>
+                    <div class="font-bold">#Netflix</div>
+                    <div class="text-sm text-gray-200">40.2k posts</div>
+                </div>
+            </div>
+            <div class="Who m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
+                <h1 class="text-xl font-bold px-3">Who to follow</h1>
+                <div class="item px-3 p-3 hover:bg-[#202327] hover:cursor-pointer">
+                    <div class="font-bold">Youtube</div>
+                    <!-- <div class="text-sm text-gray-200">40.2k posts</div> -->
+                </div>
+                <div class="text-[#1b7dbf] m-3 hover:cursor-pointer">Show More</div>
             </div>
         </div>
     </div>
